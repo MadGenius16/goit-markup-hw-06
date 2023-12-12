@@ -59,7 +59,10 @@ img {
 
 .accent-color {
     color: #4D5AE5;
-    }
+    text-decoration: underline;
+}
+
+
 
 /* /============ COMMON STYLES ============/ */
 
@@ -67,6 +70,8 @@ img {
 
 .container {
     max-width: 320px;
+    padding-top: 53px;
+    padding-bottom: 52px;
     padding-left: 16px;
     padding-right: 16px;
     margin-left: auto;
@@ -175,7 +180,7 @@ justify-content: space-between;
 .mobile-menu {
     display: flex;
     flex-direction: column;
-    margin-top: 52px;
+    
 }
 
 .mobile-menu-current {
@@ -263,6 +268,11 @@ justify-content: space-between;
 .social-icon .link {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.accent-color-mobile-menu {
+    color: #4D5AE5;
+}
+
 }
 /* /============ MOBILE HEADER STYLES ============/ */
 
@@ -1334,10 +1344,6 @@ transform: translateY(-50%);
     letter-spacing: 0.04em;
     }
     
-.accent-color {
-    color: #4D5AE5;
-    text-decoration: underline;
-    }
 
 .review-form-checkbox-wrapper {
     margin-bottom: 24px;
