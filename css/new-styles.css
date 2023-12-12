@@ -125,7 +125,7 @@ justify-content: space-between;
 
 .mobile-menu-wrapper { 
     position: fixed;
-    z-index: 999999;
+    z-index: 777;
     top: 0;
     left: 0;
     width: 100%;
